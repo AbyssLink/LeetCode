@@ -7,6 +7,23 @@
 
 using namespace std;
 
+/*
+https://leetcode.com/problems/generate-parentheses/
+
+Given n pairs of parentheses, write a function to generate all combinations of
+well-formed parentheses.
+
+For example, given n = 3, a solution set is:
+
+[
+  "((()))",
+  "(()())",
+  "(())()",
+  "()(())",
+  "()()()"
+]
+ */
+
 void backtrack(vector<string> &ans, int n, string word, int open, int close) {
     if (word.length() == n * 2) {
         ans.push_back(word);
