@@ -23,7 +23,7 @@ vector<int> input = {73, 74, 75, 71, 69, 72, 76, 73};
 
 vector<int> dailyTemperatures(vector<int> &T) {
     vector<int> ans(T.size(), 0);
-    // next[1] ~ next[100], 数组开大一些防止越界
+    // next[1] ~ next[100], make the array bigger to prevent crossing boundary
     vector<int> next(101, INT_MAX);
     for (int i = T.size() - 1; i >= 0; i--) {
         int warmer_i = INT_MAX;
