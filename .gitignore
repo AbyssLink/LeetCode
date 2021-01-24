@@ -1,7 +1,9 @@
 # custom
+.venv
 .vscode
 *.class
 .DS_Store
+*.txt
 
 # Prerequisites
 *.d

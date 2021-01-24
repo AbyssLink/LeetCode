@@ -49,15 +49,16 @@ class Solution {
   }
 
   public static void main(String[] args) {
-    int arr[] = { 0, 2, 3, 4, 6, 8, 9 };
-    int arr2[] = { 0, 1, 2, 4, 5, 7 };
-    int arr3[] = { 0, 3, 4, 5, 5, 5, 5 };
-    int arr4[] = { 1 };
-    int arr5[] = { 1, 1, 1, 1, 3, 3, 3, 3, 3, 4 };
-    int arr6[] = {};
+    // int arr[] = { 0, 2, 3, 4, 6, 8, 9 };
+    // int arr2[] = { 0, 1, 2, 4, 5, 7 };
+    // int arr3[] = { 0, 3, 4, 5, 5, 5, 5 };
+    // int arr4[] = { 1 };
+    // int arr5[] = { 1, 1, 1, 1, 3, 3, 3, 3, 3, 4 };
+    // int arr6[] = {};
+    // int arr8[] = { 1, 2, 3, 4, 5 };
+    // int arr9[] = { -2147483648, -2147483647, 2147483647 };
     int arr7[] = { -3, -2, -1, 0, 1 };
-    int arr8[] = { 1, 2, 3, 4, 5 };
-    int arr9[] = { -2147483648, -2147483647, 2147483647 };
+
     Solution solution = new Solution();
     List<String> ranges = solution.summaryRanges(arr7);
     for (String range : ranges) {
